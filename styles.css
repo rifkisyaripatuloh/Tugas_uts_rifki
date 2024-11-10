@@ -1,15 +1,15 @@
-/* Menggunakan Google Fonts untuk tampilan lebih serasi */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body, html {
-    background-image: linear-gradient(135deg, #080010, #2b0034);
+    background-image: linear-gradient(135deg, #000000, #000000);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-/* Header */
+
 .header-rifki {
     display: flex;
     justify-content: space-between;
@@ -126,7 +126,7 @@ profile-section {
 
 .album1-card-rifki{
     padding: 10px 20px;
-    background-color: #2b0034;
+    background-color: #1f1521;
     border-radius: 50px;
     margin-bottom: 50px;
 }
@@ -141,13 +141,13 @@ profile-section {
 }
 .album2-card-rifki{
     padding: 10px 20px;
-    background-color: #2b0034;
+    background-color: #1f1521;
     border-radius: 50px;
     margin-bottom: 50px;
 }
 .album3-card-rifki{
     padding: 10px 20px;
-    background-color: #2b0034;
+    background-color: #1f1521;
     border-radius: 50px;
     margin-bottom: 50px;
 }
@@ -161,18 +161,18 @@ profile-section {
 }
 
 .album-item-rifki {
-    background-color: #2b0034;
+    background-color: #200127;
     border-radius: 10px;
     padding: 20px;
     color: #e0e0e0;
     text-align: left;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(54, 52, 52, 0.3);
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.6s ease;
 }
 
-/* Responsive Video */
+
 .album-item-rifki iframe {
     width: 100%;
     height: auto;
@@ -213,7 +213,7 @@ margin-top: 30px;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.7)), 
+    background: linear-gradient(rgba(7, 2, 2, 0.7), rgba(18, 18, 18, 0.7)), 
                 url('chester-hero.jpg') no-repeat center center/cover;
     background-size: cover;
     display: flex;
@@ -324,7 +324,7 @@ margin-top: 30px;
 }
 
 .header-rifki.opaque {
-    background-color :#2b0034 /* Opaque background when scrolling or menu is open */
+    background-color :#09010a /* Opaque background when scrolling or menu is open */
 }
 .hero-text-rifki {
     position: absolute;
@@ -485,7 +485,7 @@ margin-top: 30px;
 
 
 #members {
-    background-color: #1b001b;
+    background-color: #100110;
     padding: 80px 20px;
     color: white;
     text-align: center;
@@ -501,7 +501,7 @@ margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2b0034;
+    background-color: #0d040f;
     width: 250px;
     padding: 15px;
     border-radius: 15px;
@@ -568,7 +568,7 @@ margin: 20px;
 }
 
 .social-icon:hover {
-    color: #007bff; /* Change color on hover */
+    color: #007bff; 
 }
 
 .bio-card-rifki {
@@ -577,7 +577,7 @@ margin: 20px;
     align-items: center;
     width: 300px;
     padding: 20px;
-    background-color: #2b0034;
+    background-color: #0d040e;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 0;
@@ -680,7 +680,7 @@ margin: 20px;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    background-color: #2b0034;
+    background-color: #0d0210;
 }
 /* Media Queries */
 @media (max-width: 768px) {
